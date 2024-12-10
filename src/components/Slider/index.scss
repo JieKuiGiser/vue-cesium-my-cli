@@ -1,0 +1,39 @@
+.slider {
+    margin-top: 3px;
+    padding: 0 1px;
+  .left {
+    .el-slider__runway {
+      height: 6px;
+      margin: 0;
+      background-color: #6F7681;
+
+      .el-slider__bar {
+        height: 6px;
+        background: #3280FF;
+      }
+
+      .el-slider__button-wrapper {
+        .el-slider__button {
+          width: 12px;
+          height: 12px;
+          border: 0;
+          background-color: #3280FF;
+        }
+      }
+    }
+  }
+
+  .right {
+    text-align: left;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 400;
+    .unit{
+        position: absolute;
+        top: -9px;
+        left: 145px;
+    }
+  }
+
+}

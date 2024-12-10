@@ -1,0 +1,52 @@
+.layersSrcoll {
+  margin-top: 16px;
+
+  .list-group {
+    .list-group-item {
+      list-style: none;
+      width: 100%;
+      padding: 0 15px;
+      .content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .el-input {
+          margin: 0 5px;
+
+          input {
+            background: transparent;
+            border: none;
+            height: 32px;
+            border-radius: 4px;
+            font-family: SourceHanSansCN-Regular;
+            font-size: 14px;
+            color: #FFFFFF;
+            font-weight: 400;
+          }
+        }
+
+        .el-input:hover {
+          input {
+            background: #373A3D;
+            border: 1px solid rgba(100, 103, 106, 1);
+          }
+        }
+        .handle{
+            cursor: move;
+        }
+        .delItem{
+            cursor: pointer;
+        }
+
+      }
+    }
+    .active{
+      background:  #3E4145;;
+    }
+
+    .list-group-item:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.colorPicker{
+    .el-color-picker{
+        height: 8px;
+        width: 100%;
+        .el-color-picker__trigger{
+            border: 0;
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            .el-color-picker__color{
+                border-radius: unset;
+                border: 0;
+                .el-color-picker__color-inner{
+                    height: 8px;
+                    top: -8px;
+                }
+            }
+        }
+        .el-color-picker__icon{
+            display: none;
+        }
+    }
+}
