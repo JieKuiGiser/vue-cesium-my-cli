@@ -5,7 +5,7 @@
 
             <el-row type="flex" justify="space-between">
                <el-col :span="12">
-                  <p class="logo_text">飞渡导航xxx分系统</p>
+                  <p class="logo_text">xxxxxxxxxx系统</p>
                   <img src="@/assets/images/tab-0.png" class="logo" />
                   <el-menu
                      :default-active="activeIndex"
@@ -157,12 +157,12 @@ export default defineComponent({
             },
             {
                id: "2",
-               name: "任务记录",
+               name: "xxx",
                path: "/taskRecord",
             },
             {
                id: "3",
-               name: "载具管理",
+               name: "xxx",
                path: "/carManage",
             },
          ],
